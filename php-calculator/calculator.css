@@ -1,0 +1,38 @@
+form{
+    text-justify: auto;
+    font-size: 10rem;
+    align-items: center;
+}
+
+form input{
+    border-style: none;
+    border: 2px solid;
+    border-radius: 20px;
+    transform: none;
+    border-color: navy;
+    position: relative;
+    background-color: white;
+}
+
+.calculate-btn{
+    border-style: none;
+    border: 2px solid;
+    border-radius: 20px;
+    transform: none;
+    border-color: white;
+    background-color: cornflowerblue;
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+}
+
+.calc-error{
+    color: red;
+}
+
+.result{
+    font-weight: 200;
+    font-size: x-large;
+    color: lightblue;
+}
+

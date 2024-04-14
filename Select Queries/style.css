@@ -1,0 +1,12 @@
+.comment-section{
+    text-align: justify;
+    border: solid;
+    border-radius: 20px;
+    background-color: lightslategray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+.comments{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
