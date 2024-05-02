@@ -36,7 +36,7 @@ function check_for_errors()  {
             echo '<p class="error-handler">' . $error . '</p>';
         }
         unset($_SESSION["errors"]);
-    } else if (isset($_GET["signup"]) && $_GET["signup"] === "successful signup") {
+    } else if (isset($_GET["signup"]) && $_GET["signup"] === "success") {
         echo '<br>';
         echo '<p class="success">Signup was successful!</p>'; 
     }

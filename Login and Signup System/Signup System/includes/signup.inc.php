@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         register_user($pdo, $username, $password, $email);
 
-        header('Location: ../index.php?signup=successful signup');
+        header('Location: ../index.php?signup=success');
         $pdo = null;
         $statement = null;
 
